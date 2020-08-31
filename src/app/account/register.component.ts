@@ -5,7 +5,7 @@ import { first } from 'rxjs/operators';
 
 import { AccountService, AlertService } from '@app/_services';
 
-@Component({ templateUrl: 'register.component.html' })
+@Component({ templateUrl: 'register.component.html', styleUrls: ['custom.css'] })
 export class RegisterComponent implements OnInit {
     form: FormGroup;
     loading = false;

@@ -1,5 +1,35 @@
-﻿<div class='bg'>
-<div class="col-md-4 offset-md-4 mt-5">
-    <router-outlet></router-outlet>
-</div>
-</div>
+﻿<!--Main Navigation-->
+<header class="intro-header">
+    <!--Background image cover-->
+    <section class='view bg'> 
+
+        <!--Navigation bar-->
+        <!--Container-->
+        <div class="d-flex align-items-center nav-color">
+            
+            <!--Logo-->
+            <div class="col-3 nopadding">
+                <img class="logo" src="assets/img/transparent-logo.png">
+            </div>
+            <!--Title text-->
+            <div class="col-6">
+                <div class="example text-center">
+                    Next Gen Labs
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Sign-in | Register-->
+        <!--Container-->
+        <div class="d-flex justify-content-center">
+            <!--Spacing top-->
+            <div class="pt-4 mt-4">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+
+    
+    </section>
+</header>
+<!--Main Navigation-->
